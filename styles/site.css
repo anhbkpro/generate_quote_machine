@@ -1,0 +1,59 @@
+h2{
+  color: #16B6DF;
+}
+
+#getRandomQuote{
+  color: #16B6DF;
+  border: 3px solid #16B6DF;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-weight: bold;
+  background: #fff;
+  text-decoration: none;
+  box-shadow: 0 0 10px 10px white;
+  display: block;
+  text-align: center;
+}
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
+
+/* .post{
+  font-size: 35px;
+  color: #16B6DF;
+  font-family: Arial;
+  position: absolute;
+  line-height: 300px;
+  font-weight: bold;
+} */
+
+#quote-content{
+  font-size: 21px;
+  font-family: Lora, serif;
+  margin-bottom: 10px;
+  line-height: 1.3em;
+}
+
+#quote-title{
+  color: #16B6DF;
+  font-weight: bold;
+  font-size: 26px;
+  text-transform: uppercase;
+}
+
