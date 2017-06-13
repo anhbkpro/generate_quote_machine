@@ -21,6 +21,10 @@ $("#getRandomQuote").on("click", function () {
     xhrObject.send();
 });
 
+$("#getRandomQuote").on("click", function () {
+  window.open("https://twitter.com/intent/tweet?text=" + getQuote());
+});
+
 /* function getQuote() {
   var cb = Math.round(new Date().getTime() / 1000);
   $.getJSON("http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1&callback=" + cb, function(a) {

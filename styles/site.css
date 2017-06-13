@@ -1,8 +1,8 @@
-h2{
+h2 {
   color: #16B6DF;
 }
 
-#getRandomQuote{
+#getRandomQuote {
   color: #16B6DF;
   border: 3px solid #16B6DF;
   border-radius: 5px;
@@ -22,7 +22,6 @@ blockquote {
   padding: 0.5em 10px;
   quotes: "\201C""\201D""\2018""\2019";
 }
-
 blockquote:before {
   color: #ccc;
   content: open-quote;
@@ -31,22 +30,28 @@ blockquote:before {
   margin-right: 0.25em;
   vertical-align: -0.4em;
 }
-
 blockquote p {
   display: inline;
 }
 
-#quote-content{
+#quote-content {
   font-size: 21px;
   font-family: Lora, serif;
   margin-bottom: 10px;
   line-height: 1.3em;
 }
 
-#quote-title{
+#quote-title {
   color: #16B6DF;
   font-weight: bold;
   font-size: 26px;
   text-transform: uppercase;
+}
+
+#tweet {
+  color: #16B6DF;
+  display: inline-block;
+  margin-top: 8px;
+  margin-left: 29px;
 }
 
